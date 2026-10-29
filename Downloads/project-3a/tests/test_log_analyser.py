@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pytest
-
 from log_analyser.analyser import analyse_file, analyse_lines
 from log_analyser.cli import main
 from log_analyser.exceptions import LogFileNotFoundError, MalformedLineError
